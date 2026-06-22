@@ -34,7 +34,7 @@ def filetopdf():
 
 		if not image_files:
 			print("No images found.")
-			return
+			filetopdf()
 
 		images = []
 
